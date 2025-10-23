@@ -70,9 +70,6 @@ htmlcov/
 # Results and outputs
 results/
 outputs/
-*.png
-*.jpg
-*.json
 !package.json
 !package-lock.json
 
