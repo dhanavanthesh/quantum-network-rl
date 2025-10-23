@@ -1,0 +1,42 @@
+# Quantum Network Simulator - Python Dependencies
+
+# Core Framework
+numpy
+scipy
+
+# Quantum Simulation (lightweight alternative to QuTip for efficiency)
+# Note: QuTip 4.7.6 can be installed optionally if needed
+# qutip==4.7.6
+
+# Machine Learning - PyTorch CPU version (memory efficient)
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Network Topology
+networkx
+
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# Data Processing and Visualization
+matplotlib
+pandas
+
+# Scientific Computing
+scipy
+
+# Utilities
+tqdm
+python-dotenv
+
+# Testing (optional)
+pytest
+pytest-asyncio
+
+# Type Checking (optional)
+mypy
